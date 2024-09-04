@@ -1,0 +1,188 @@
+@media only screen and (max-width:767px) {
+
+    *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        /*default content-box model*/
+      }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+  /*banner*/
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner h1 {
+    width:100vw;  /*nếu 100vh sẽ tạo thanh ngang*/
+  }
+  /*nav*/
+  #nav-container {
+    border: none;
+    display: block;
+    justify-content: start;
+    height: auto;
+  }
+
+  #nav-name {
+    display: none;
+  }
+
+  #nav-info,
+  #nav-sche,
+  #nav-degr,
+  #nav-proj {
+    border: none;
+    display: block;
+    width: auto;
+    text-align: left;
+    /* padding-left: 20px; */
+    margin-left: 0;
+  }
+
+  /*info*/
+  .info {
+    display: block;
+  }
+
+  .target,
+  .information {
+    width: auto; /*?*/
+  }
+
+  .target {
+    /* padding-bottom: 30px; */
+  }
+
+  .info .tcontent {
+    width: auto;
+  }
+
+  .tcontent .grey {
+    margin-bottom: 0;
+  }
+
+  /*career*/
+
+  .career .grid {
+    grid-template-columns: auto;
+  }
+
+  /*degrees*/
+  .degrees {
+    text-align: center;
+  }
+
+  .degrees.title {
+    text-align: left;
+  }
+
+  .degrees .grid {
+    grid-template-columns: auto;
+  }
+  .degrees .flex {
+    display: block;
+  }
+
+  .degrees img {
+    width: 80%;
+  }
+
+  .oline {
+    display: none;
+  }
+
+  .degrees .title {
+    grid-column: 1 / span 1;
+    text-align: left;
+  }
+
+  .PRF,
+  .WEB,
+  .DBI {
+    border-left: none;
+    border-bottom: solid 2px #d6c08d;
+  }
+
+  .txt-left {
+    /* padding-left: 50px; */
+  }
+
+  /*plans*/
+  .plans .grid {
+    grid-template-columns: auto;
+  }
+
+  .plans img {
+    width: 100%;
+  }
+
+  .plans .title {
+    grid-column: 1 / span 1;
+    text-align: left;
+    grid-template-columns: 100%;
+  }
+
+  .plans .special {
+    /* width: 30px; */
+    margin-bottom: 0;
+  }
+
+  .yfd {
+    display: block;
+  }
+
+  .fd {
+    height: auto;
+    display: block;
+  }
+
+  .plans i {
+    padding-left: 0;
+  }
+
+  .Dev,
+  .FU {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+    /*footer*/
+       
+        .contacts {
+          padding: 4rem 0;
+          background-color: #f7f7f7;
+        }
+    
+        .contacts .flexContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          column-gap: 2rem
+        }
+    
+        .contacts .flex-item {
+          display: flex;
+          justify-content: center;
+        }
+    
+        .contacts i {
+          color: #1d9fdd;
+          font-size: 2rem;
+        }
+    
+        .contacts .icons {}
+    
+        .contacts p {
+          margin-top: 8px;
+        }
+}
